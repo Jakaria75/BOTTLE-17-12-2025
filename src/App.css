@@ -1,0 +1,18 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+
+}
+.cart{
+    height: 150px;
+    width: 250px;
+    gap: 50px;
+    border: 3px solid salmon;
+    border-radius: 15px;
+}
+.bottle{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+}
